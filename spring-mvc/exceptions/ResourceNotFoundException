@@ -5,3 +5,7 @@ public class ResourceNotFoundException extends RuntimeException{
         super(message);
     }
 }
+//customer exceptions
+//- Constructor with message:
+//- That message is stored in the parent RuntimeException and can be retrieved later with getMessage().
+// @ExceptionHandler(ResourceNotFoundException.class)-in advices file with globalexceptionhandler
